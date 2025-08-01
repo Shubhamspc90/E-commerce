@@ -1,0 +1,239 @@
+*{
+    margin: 0%;
+    padding:0%;
+    font-family: 'Roboto',sans-serif;   
+}
+body{
+    background-color: aliceblue ;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(251, 171, 12);
+    padding: 20px;
+    border-radius: 0%;
+    border-color: black;
+    box-shadow:0px 2px 2px 2px gray;
+}
+/* 
+nav ul li :hover{
+    transition: 0.6s ease;
+    font-size: 25px;
+}
+
+ */
+nav ul li{
+    list-style: none;
+
+}
+nav.logo{
+    margin-left: 20;
+    font-size: 30px;
+}
+.logo{
+    width: 5px;
+    height: 5px;
+}
+ul{
+    margin-right: 40px;
+    margin-top: 7px;
+}
+#Home{
+    color: rgb(13, 253, 253);
+}
+ul li a{
+    margin-inline: 22px;
+    font-size: 20px;
+}
+ul li a:hover{
+    border-bottom:5px solid rgb(12, 249, 123);
+    cursor: pointer;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+.mainText h2{
+    color: red;
+}
+.mainText p{
+    color:black;
+}
+
+.main .mainText{
+    margin-top: 144px;
+    padding-left: 40px;
+}
+.mainText{
+    font-size: 30px;
+}
+.mainText.top{
+    color: aquamarine;
+}
+.mainText p{
+  margin-top: 12px;
+}
+.mainText button{
+    width: 130px;
+    height: 40px;
+    background-color: rgb(6, 166, 166);
+    border: none;
+    border-color: brown;
+    border-radius: 2px;
+    font-size:22px; 
+    color: white;
+    margin-top: 24px;
+}
+.mainText button:hover{
+    border: 3px solid rgb(151, 214, 151);
+    color:rgb(14, 13, 13);
+    background-color: transparent;
+}
+
+
+.banner {
+    width: 100%;
+    height: 700px; 
+    background-image: url('bgbanner2.jpg');
+    background-size: cover;
+    background-position:center center;
+    color: rgb(10, 97, 237); 
+    text-align:left;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+}
+
+.head h1 {
+    text-align: center;
+    padding: 33px;
+    margin-top: 22px;
+}
+.head span{
+    color: rgb(16, 248, 248);
+}
+.card{
+    display: flex;
+    justify-content: center; 
+}
+.card h4{
+    text-align: center;
+}
+.card img{
+    display: flex;
+    justify-content: center;
+    height:258px;
+    width: 295px;
+    border-radius: 20px;
+}
+.card .crd{
+    background-color: antiquewhite;
+    margin-inline: 11px;
+    padding : 10px;
+}
+.crdText{
+color: bisque;
+}
+
+.card button{
+        padding: 10px 20px;
+        font-size:small;
+        cursor: pointer;
+        justify-items:center;
+        background-color: rgb(19, 238, 19);
+}
+.blog{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+    background-color:antiquewhite;
+    margin-inline: 5px;
+    
+
+}
+.blog img{
+    width: 85%;
+    padding: 20px;
+  
+    border-radius: 10px;
+   
+   
+    
+}
+.bloxText{
+    padding: 20px;
+    margin-bottom: 33px;
+}
+.blogText a{
+    width: 120px;
+    padding: 5px;
+    height: 10px;
+    background-color: rgb(255, 0, 106);
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 90px;
+
+}
+.blog:hover{
+    transition: 0.6s ease;
+    width: 520px;
+    height: 320px;
+}
+
+.letter{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 40px;
+
+    background-color: rgb(136, 136, 241);
+}
+.inp{
+    display: flex;
+}
+.inp input{
+    width: 300px;
+    height: 30px;
+    outline: none;
+    font-size: 15px;
+
+}
+.inp button{
+    width: 100px;
+    height: 30px;
+    background-color:aquamarine;
+    color: white;
+    border: 0cap;
+   
+}
+/*  
+.footer{
+  display: flex;
+  
+  justify-content: center;
+  padding: 25px;
+
+}
+.footer .footerText{
+    font-size:15px;
+    margin-inline: 50px;
+}
+.footerText p{
+    margin-top: 10px;
+}
+    */
+
+.row{
+    display: flex;
+  
+    justify-content: center;
+    padding: 25px;
+}
+
+
+  footer.custom-footer {
+    padding: 30px 0;
+  }
